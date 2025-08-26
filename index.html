@@ -17,24 +17,44 @@
   </head>
   <body>
     <header>
-        <div id="search-div">
-            <label for="searchbar"><i class="mdi mdi-magnify icon-style" id="magnify"></i></label>
-            <input type="text" name="searchbar" id="searchbar" placeholder="Search for...">
+      <div id="search-div">
+        <label for="searchbar"
+          ><i class="mdi mdi-magnify icon-style" id="magnify"></i
+        ></label>
+        <input
+          type="text"
+          name="searchbar"
+          id="searchbar"
+          placeholder="Search for..."
+        />
+      </div>
+      <div id="user-tabs">
+        <i class="mdi mdi-bell-ring-outline" id="notify-icon"></i>
+        <div class="user-profile-pic">
+          <img
+            src="./assets/alexander-hipp-unsplash.jpg"
+            alt="User profile picture"
+          />
         </div>
-        <div id="user-tabs">
-            <i class="mdi mdi-bell-ring-outline" id="notify-icon"></i>
-            <div class="user-profile-pic"><img src="./assets/alexander-hipp-unsplash.jpg" alt="User profile picture"></div>
-             <p>Morgan Oakley</p>
+        <p>Morgan Oakley</p>
+      </div>
+      <div id="greeting-div">
+        <div class="user-profile-pic">
+          <img
+            src="./assets/alexander-hipp-unsplash.jpg"
+            alt="User profile picture"
+          />
         </div>
-        <div id="greeting-div">
-            <div class="user-profile-pic"><img src="./assets/alexander-hipp-unsplash.jpg" alt="User profile picture"></div>
-            <p><span class="static-text-greeting">Hi there,</span><br>Morgan Oakley (@morgan)</p>
-        </div>
-        <div id="buttons">
-          <button type="submit">New</button>
-          <button type="submit">Upload</button>
-          <button type="submit">Share</button>
-        </div>
+        <p>
+          <span class="static-text-greeting">Hi there,</span><br />Morgan Oakley
+          (@morgan)
+        </p>
+      </div>
+      <div id="buttons">
+        <button type="submit">New</button>
+        <button type="submit">Upload</button>
+        <button type="submit">Share</button>
+      </div>
     </header>
     <aside>
       <div id="aside-header-section">
@@ -42,17 +62,39 @@
         <h1>Dashboard</h1>
       </div>
       <div id="settings-top">
-        <p><a href="#"><i class="mdi mdi-home-variant icon-style"></i>Home</p></a>
-        <p><a href="#"><i class="mdi mdi-card-account-details icon-style"></i>Profile</p></a>
-        <p><a href="#"><i class="mdi mdi-message icon-style"></i>Messages</p></a>
-        <p><a href="#"><i class="mdi mdi-history icon-style"></i>History</p></a>
-        <p><a href="#"><i class="mdi mdi-file-multiple icon-style"></i>Tasks</p></a>
-        <p><a href="#"><i class="mdi mdi-account-group icon-style"></i>Communities</p></a>
+        <p>
+          <a href="#"><i class="mdi mdi-home-variant icon-style"></i>Home</a>
+        </p>
+        <p>
+          <a href="#"
+            ><i class="mdi mdi-card-account-details icon-style"></i>Profile</a
+          >
+        </p>
+        <p>
+          <a href="#"><i class="mdi mdi-message icon-style"></i>Messages</a>
+        </p>
+        <p>
+          <a href="#"><i class="mdi mdi-history icon-style"></i>History</a>
+        </p>
+        <p>
+          <a href="#"><i class="mdi mdi-file-multiple icon-style"></i>Tasks</a>
+        </p>
+        <p>
+          <a href="#"
+            ><i class="mdi mdi-account-group icon-style"></i>Communities</a
+          >
+        </p>
       </div>
       <div id="settings-bottom">
-        <p><a href="#"><i class="mdi mdi-cog-outline icon-style"></i>Settings</p></a>
-        <p><a href="#"><i class="mdi mdi-help icon-style"></i>Support</p></a>
-        <p><a href="#"><i class="mdi mdi-shield-check icon-style"></i>Privacy</p></a>
+        <p>
+          <a href="#"><i class="mdi mdi-cog-outline icon-style"></i>Settings</a>
+        </p>
+        <p>
+          <a href="#"><i class="mdi mdi-help icon-style"></i>Support</a>
+        </p>
+        <p>
+          <a href="#"><i class="mdi mdi-shield-check icon-style"></i>Privacy</a>
+        </p>
       </div>
     </aside>
     <main>
@@ -60,63 +102,104 @@
         <div class="project-card" id="first-project-card">
           <h2 id="user-projects">Your Projects</h2>
           <p class="project-card-title">Super cool project</p>
-          <p class="project-card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Maiores ducimus qui voluptate assumenda placeat! Aut ratione nisi ut exercitationem.</p>
-            <div class="icons-div">
+          <p class="project-card-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+            ducimus qui voluptate assumenda placeat! Aut ratione nisi ut
+            exercitationem.
+          </p>
+          <div class="icons-div">
             <i class="mdi mdi-star-plus"></i>
             <i class="mdi mdi-eye-plus-outline"></i>
             <i class="mdi mdi-source-fork"></i>
-            </div>
+          </div>
         </div>
         <div class="project-card">
           <p class="project-card-title">Super cool project</p>
-          <p class="project-card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Maiores ducimus qui voluptate assumenda placeat! Aut ratione nisi ut exercitationem.</p>
-            <div class="icons-div">
+          <p class="project-card-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+            ducimus qui voluptate assumenda placeat! Aut ratione nisi ut
+            exercitationem.
+          </p>
+          <div class="icons-div">
             <i class="mdi mdi-star-plus"></i>
             <i class="mdi mdi-eye-plus-outline"></i>
             <i class="mdi mdi-source-fork"></i>
-            </div>
+          </div>
         </div>
         <div class="project-card">
           <p class="project-card-title">Super cool project</p>
-          <p class="project-card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Maiores ducimus qui voluptate assumenda placeat! Aut ratione nisi ut exercitationem.</p>
-            <div class="icons-div">
+          <p class="project-card-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+            ducimus qui voluptate assumenda placeat! Aut ratione nisi ut
+            exercitationem.
+          </p>
+          <div class="icons-div">
             <i class="mdi mdi-star-plus"></i>
             <i class="mdi mdi-eye-plus-outline"></i>
             <i class="mdi mdi-source-fork"></i>
-            </div>
+          </div>
         </div>
         <div class="project-card">
           <p class="project-card-title">Super cool project</p>
-          <p class="project-card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Maiores ducimus qui voluptate assumenda placeat! Aut ratione nisi ut exercitationem.</p>
-            <div class="icons-div">
+          <p class="project-card-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+            ducimus qui voluptate assumenda placeat! Aut ratione nisi ut
+            exercitationem.
+          </p>
+          <div class="icons-div">
             <i class="mdi mdi-star-plus"></i>
             <i class="mdi mdi-eye-plus-outline"></i>
             <i class="mdi mdi-source-fork"></i>
-            </div>
+          </div>
         </div>
         <div class="project-card">
           <p class="project-card-title">Super cool project</p>
-          <p class="project-card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Maiores ducimus qui voluptate assumenda placeat! Aut ratione nisi ut exercitationem.</p>
-            <div class="icons-div">
+          <p class="project-card-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+            ducimus qui voluptate assumenda placeat! Aut ratione nisi ut
+            exercitationem.
+          </p>
+          <div class="icons-div">
             <i class="mdi mdi-star-plus"></i>
             <i class="mdi mdi-eye-plus-outline"></i>
             <i class="mdi mdi-source-fork"></i>
-            </div>
+          </div>
         </div>
         <div class="project-card">
           <p class="project-card-title">Super cool project</p>
-          <p class="project-card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Maiores ducimus qui voluptate assumenda placeat! Aut ratione nisi ut exercitationem.</p>
-            <div class="icons-div">
+          <p class="project-card-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+            ducimus qui voluptate assumenda placeat! Aut ratione nisi ut
+            exercitationem.
+          </p>
+          <div class="icons-div">
             <i class="mdi mdi-star-plus"></i>
             <i class="mdi mdi-eye-plus-outline"></i>
             <i class="mdi mdi-source-fork"></i>
-            </div>
+          </div>
+        </div>
+      </div>
+      <div id="announcements">
+        <h2 id="announcements-info">Announcements</h2>
+        <div class="card">
+          <h3>Site Maintenance</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+            veniam optio iure quidem praesentium.
+          </p>
+        </div>
+        <hr />
+        <div class="card">
+          <h3>Community Share Day</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+            veniam.
+          </p>
+        </div>
+        <hr />
+        <div class="card">
+          <h3>Updated Privacy Policy</h3>
+          <p>Incidunt corporis maiores, eveniet atque voluptas nisi?</p>
         </div>
       </div>
     </main>
