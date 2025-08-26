@@ -228,7 +228,8 @@ main {
 }
 
 .project-card > .project-card-text,
-.card > p {
+.card > p,
+#trending p + p {
   color: grey;
 }
 
@@ -253,6 +254,7 @@ main {
   justify-self: center;
   position: relative;
   width: 60%;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
   display: flex;
   flex-direction: column;
   gap: 1em;
@@ -275,6 +277,48 @@ hr {
 }
 
 #announcements-info {
+  position: absolute;
+  top: -1.5em;
+  left: 0;
+}
+
+#trending {
+  justify-self: center;
+  align-self: end;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  width: 60%;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  padding: 5px 20px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+#trending > div {
+  display: flex;
+  align-items: center;
+}
+
+#trending img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 1em;
+}
+
+#trending .trending-user-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.trending-user-info > p:first-child {
+  font-family: "Roboto";
+  font-weight: 700;
+}
+
+#trending-info {
   position: absolute;
   top: -1.5em;
   left: 0;
